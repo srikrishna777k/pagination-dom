@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid;
+      padding: 2px 5px;
+      border-collapse: collapse;
+    }
+
+    ul {
+      display: flex;
+      justify-content: flex-start;
+      margin-left: 10px;
+      padding: 0px;
+    }
+
+    ul li {
+      font-size: 1.2em;
+      font-weight: bold;
+      color: rgba(60, 90, 190, 0.924);
+      height: 2.5em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      list-style-type: none;
+      border-top: 2px solid rgb(200, 199, 199);
+      border-bottom: 2px solid rgb(200, 199, 199);
+      border-left: 1px solid rgb(200, 199, 199);
+      border-right: 1px solid rgb(200, 199, 199);
+      padding: 5px 15px;
+      margin: 0px;
+      box-sizing: border-box;
+    }
+
+    ul li:hover {
+      background-color: rgb(224, 220, 220);
+      cursor: pointer;
+    }
+
+    ul li:first-of-type {
+      border-left: 2px solid rgb(200, 199, 199);
+    }
+
+    ul li:last-of-type {
+      border-right: 2px solid rgb(200, 199, 199);
+    }
+
+    .pgnos {
+      width: 2.5em;
+    }
+
+    .active {
+      color: white;
+      background-color: rgba(60, 90, 190, 0.924);
+    }
+
+    .active:hover{
+      background-color: rgba(60, 90, 190, 0.924);
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- All html content is dynamically loaded. -->
+
+  <script src="dom.js"></script>
+</body>
+
+</html>
